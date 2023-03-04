@@ -1,2 +1,2 @@
-# Landing-Page
+# landing-Page
 Creating first webpage by using Flexbox
