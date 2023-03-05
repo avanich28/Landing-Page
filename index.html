@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">LOGISTICS</div>
+            <div class="right">
+                <ul class="nav">
+                    <li><a href="index.html" target="_self">Home</a></li>
+                    <li><a href="#" target="_blank">About</a></li>
+                </ul>
+                <input type="text" placeholder="search" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button> <!--Add Link! ?-->
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="container">
+            <div class="word">
+                <h1 class="topic">The International Trade</h1>
+                <div>This webpage explains the types of transportation and 
+                the term of trade contract in both domestic and international
+                commercial.</div>
+                <button class="button" type="button">Sign up</button>
+            </div>
+        </div>
+    </header>
+    <section class="section-one">
+        <div class="container">
+            <h2 class="subtopic-one">Transportation Modes</h2>
+            <div class="sub-container">
+                <div class="mode">
+                    <img src="images/vessel.png" alt="ocean freight">
+                    <div class="text">Ocean Freight</div>
+                    <p><span>Pros:</span> Cheapest!</p>
+                    <p><span>Cons:</span> Slowest delivery</p>
+                </div>
+                <div class="mode">
+                    <img src="images/airplane.png" alt="air freight">
+                    <div class="text">Air Freight</div>
+                    <p><span>Pros:</span> Fast delivery</p>
+                    <p><span>Cons:</span> Expensive</p>
+                </div>
+                <div class="mode">
+                    <img src="images/truck.png" alt="truckload freight">
+                    <div class="text">Truckload Freight</div>
+                    <p><span>Pros:</span> Fast delivery</p>
+                    <p><span>Cons:</span> Can deliver just only near location</p>
+                </div>
+                <div class="mode">
+                    <img src="images/train.png" alt="rail freight">
+                    <div class="text">Rail Freight</div>
+                    <p><span>Pros:</span> Cheap and lowest damage on the goods</p>
+                    <p><span>Cons:</span> Slow delivery</p>
+                </div>
+                <div class="mode">
+                    <img src="images/courier.png" alt="courier">
+                    <div class="text">Courier</div>
+                    <p><span>Pros:</span> Fastest Delivery</p>
+                    <p><span>Cons:</span> Most Expensive! and can deliver only small batch</p>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <section class="section-two">
+        <div class="container">
+            <h2 class="subtopic">Incoterms Rules</h2>
+            <p class="explain">Incoterms or International Commercial Terms was used as international 
+            and domestic trade contracts. There are 7 mains popular Incoterms rules.</p>
+            <div class="sub-container-two">
+                <div class="rules">
+                    <div class="term">EXW</div>
+                    <div>- Ex-Work -</div>
+                    <p><span>Importer:</span> The buyers take all responsibility on 
+                    shipping and transportation cost from the seller's factory to 
+                    the buyer's factory.</p>
+                    <p><span>Exporter:</span> The sellers don't need to pay any delivery cost.</p>
+                </div>
+                <div class="rules">
+                    <div class="term">FOB</div>
+                    <div>- Free on Board -</div>
+                    <p>This rule is the most popular rule in international trade!</p>
+                    <p><span>Importer:</span> The buyers take responsibility on 
+                    transportation cost after the goods loaded on board
+                    or put on a shipping vessel.</p>
+                    <p><span>Exporter:</span> The sellers takes responsibility on the cost of 
+                    shipping, custom documents, and loading the goods on board at their side.</p>
+                    <p><span class="note">Note:</span> This rule is applied just only 
+                    in ocean freight.</p>
+                    </div>
+                <div class="rules">
+                    <div class="term">FCA</div>
+                    <div>- Free Carrier -</div>
+                    <p><span>Importer:</span> The buyers takes all responsibility on
+                    shipping and transportation cost as EXW term, except only export 
+                    entry document at the sellers side.</p>
+                    <p><span>Exporter:</span> The sellers pays just only export entry
+                    or the document that the custom requires before proceeding export.</p>
+                </div>
+                <div class="rules">
+                    <div class="term">CIF</div>
+                    <div>- Cost, Insurance, Freight -</div>
+                    <p><span>Importer:</span> The buyers pay only the part of shipping, 
+                    custom documents, and tax tariff at their side.</p>
+                    <p><span>Exporter:</span> The sellers take responsibility on delivery cost
+                    from their factory to freight cost, including insurance.</p>
+                </div>
+                <div class="rules">
+                    <div class="term">DDU</div>
+                    <div>- Deliveries Duty Unpaid -</div>
+                    <p><span>Importer:</span> Importers pay only import tariff 
+                    duties and taxes at their side.</p>
+                    <p><span>Exporter:</span> Exporters takes responsibility on all delivery cost
+                    and some extra costs in importers' country, except import duties and taxes.</p>  
+                    <p><span class="note">Note:</span> Some province in each country charges 
+                    some extra costs such as carriage, insurance, custom clearance and other 
+                    expenses up to the province that the goods pass.</p>
+                </div>
+                <div class="rules">
+                    <div class="term">DAP</div>
+                    <div>- Delivered at Place -</div>
+                    <p><span>Importer:</span> Importers pay import tariff duties and taxes 
+                    at their side, including extra costs in importers province.</p>
+                    <p><span>Exporter:</span> Exporters takes responsibility on all delivery cost
+                    from exporter's factory to importer's factory, except import duties and taxes.</p>
+                    <p><span class="note">Note:</span> DAP is launched in 
+                    order to transfer extra costs in DDU term to importer.</p>
+                </div>
+                <div class="rules">
+                    <div class="term">DDP</div>
+                    <div>- Delivered at Place -</div>
+                    <p><span>Importer:</span> The buyers don't pay any delivery cost.</p>
+                    <p><span>Exporter:</span> The sellers take all responsibility on delivery cost from
+                    the seller's factory to the front of buyer's factory.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <figure class="quote">
+        <div class="container">
+            <blockquote>
+            <em>Without logistics the world stops</em>
+            </blockquote>
+            <figcaption>
+                &mdash; Dave Waters
+            </figcaption>
+        </div>    
+    </figure> 
+    <aside class="aside">
+        <div class="container">
+            <div class="sign-up">
+                <div class="main">Interest our Promotion! Be our member now!</div>
+                <div class="detail">Sign up for our service by clicking button right over here</div>
+            </div>
+            <button class="button">Sign up</button>
+        </div>
+        
+    </aside>
+    
+    <footer class="footer">
+        <div class="container">
+            <div>Copyright © The Odin Project 2023</div>
+        </div>
+    </footer>
+</body>
+</html>

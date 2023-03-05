@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    padding: 0px 14px;
+    height: 50px;
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.container .logo {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    gap: 1rem;
+}
+
+.nav {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+input {
+    width: 180px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.header {
+    background-color: rgb(32, 32, 66);
+    min-height: 400px;
+    /*width: 100%;*/
+    color: white;
+    padding-left: auto;
+    padding-right: auto;
+    background-image: url(images/vehical-3.png); 
+}
+
+.header .container .word div {
+    text-align: center;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.word {
+    /*border: 1px solid white;*/
+    height: 300px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic {
+    flex: none;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.word div {
+    font-size: 16px;
+    align-self: center;
+}
+
+.button {
+    flex: none;
+    margin-top: 40px;
+    align-self: center;
+    border-radius: 5%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgb(245, 183, 67);
+    border: none;
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+.button:active {
+    background-color: white;
+}
+
+.section-one {
+    /*min-height: 300px;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: larger;
+    /*border: 1px solid black;*/
+}
+
+.section-one .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.section-one .container .subtopic-one {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.section-one .container .sub-container {
+    flex: 1 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.mode {
+    flex: 0 0 auto;
+    width: 220px;
+    height: 220px;
+    padding: 13px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.mode img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.mode .text {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.mode p span {
+    font-weight: bold;
+    color: rgb(162, 75, 75);
+} 
+
+.section-two {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: larger;
+    /*border: 1px solid black;*/
+}
+
+.section-two .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section-two .container .subtopic {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.section-two .container .explain {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.section-two .container .sub-container-two {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.rules {
+    flex: 0 0 auto;
+    height: 350px;
+    width: 300px;
+    padding: 14px;
+    font-size: 14px;
+    border: 2px solid rgb(202, 200, 200);
+    border-radius: 10%;
+}
+
+.rules .term {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.rules div {
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.rules p {
+    margin: 8px;
+}
+
+.rules p span {
+    font-weight: bold;
+    color: rgb(39, 86, 128);
+}
+
+.quote {
+    height: 80px;
+    /*border: 1px solid black;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(168, 217, 230, 0.702);
+}
+
+.quote .container {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote .container figcaption {
+    margin-top: 10px;
+}
+
+.aside {
+    margin: 30px auto;
+    height: 100px;
+    width: 800px;
+    padding: 20px 20px;
+    background-color: rgb(125, 124, 124);
+}
+
+.aside .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    height: 100%;
+}
+
+.aside .container .sign-up {
+    align-self: center;
+    color: white;
+}
+
+.aside .container .sign-up .main {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.aside .container .sign-up .detail {
+    font-size: 13px;
+}
+
+.aside .container .button {
+    align-self: center;
+    margin: 0px;
+}
+
+.footer {
+    height: 30px;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    font-size: 10px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
