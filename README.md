@@ -1,2 +1,2 @@
 # landing-page
-Creating first webpage by using Flexbox
+Create first webpage by using Flexbox
